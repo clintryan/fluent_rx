@@ -1,20 +1,20 @@
-<section class="bg-gradient-section section-padding font-inter">
+<section id="home" class="bg-gray-50 hero-section font-inter">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <!-- Text Content -->
       <div class="text-center lg:text-left">
-        <h1 class="heading-xl text-white mb-6">
-          Build the Next Great Thing
+        <h1 class="heading-xl text-gray-900 mb-8">
+          Tailored English Communication Solutions for Non-Native Speakers
         </h1>
-        <p class="mt-6 text-xl leading-8 text-blue-100">
-          Are you ready to start your adventure and start building the next greatest SAAS app on the market?
+        <p class="mt-8 text-xl leading-8 text-gray-600 mb-10">
+          Enhance your communication skills with Clint. Unlock your potential in English-speaking business environments with tailored Professional Language Communications Sessions.
         </p>
-        <div class="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
-          <a href="#courses" class="btn-primary">
-            Signup Today!
+        <div class="mt-12 flex items-center justify-center lg:justify-start gap-x-6">
+          <a href="#courses" class="btn-primary text-lg px-8 py-4">
+            Explore Our Courses
           </a>
-          <a href="#testimonials" class="btn-ghost">
-            Learn More <span aria-hidden="true">→</span>
+          <a href="#testimonials" class="btn-ghost text-lg px-8 py-4">
+            View Success Stories <span aria-hidden="true">→</span>
           </a>
         </div>
       </div>
@@ -26,8 +26,49 @@
             <%= image_tag "hero.jpg", class: "w-full h-full object-cover", alt: "Professional English Communication Training" %>
           </div>
           <!-- Decorative elements -->
-          <div class="absolute -top-4 -left-4 w-20 h-20 bg-white rounded-full opacity-20"></div>
-          <div class="absolute -bottom-4 -right-4 w-16 h-16 bg-white rounded-full opacity-30"></div>
+          <div class="absolute -top-4 -left-4 w-20 h-20 bg-blue-100 rounded-full opacity-60"></div>
+          <div class="absolute -bottom-4 -right-4 w-16 h-16 bg-blue-200 rounded-full opacity-40"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wall of Fame Section -->
+    <div class="mt-20">
+      <div class="mx-auto max-w-xl text-center mb-12">
+        <h2 class="text-lg font-semibold leading-8 tracking-tight text-gray-600">
+          Trusted by students from top global companies:
+        </h2>
+      </div>
+      <div class="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+        <div class="col-span-1 flex justify-center lg:col-span-1">
+          <div class="h-12 w-auto flex items-center justify-center">
+            <div class="text-gray-400 font-semibold text-lg">Citigroup</div>
+          </div>
+        </div>
+        <div class="col-span-1 flex justify-center lg:col-span-1">
+          <div class="h-12 w-auto flex items-center justify-center">
+            <%= image_tag "jpmorgan.svg", class: "h-8 w-auto object-contain", alt: "JPMorgan" %>
+          </div>
+        </div>
+        <div class="col-span-1 flex justify-center lg:col-span-1">
+          <div class="h-12 w-auto flex items-center justify-center">
+            <%= image_tag "google.png", class: "h-8 w-auto object-contain", alt: "Google" %>
+          </div>
+        </div>
+        <div class="col-span-1 flex justify-center lg:col-span-1">
+          <div class="h-12 w-auto flex items-center justify-center">
+            <%= image_tag "tesla.png", class: "h-8 w-auto object-contain", alt: "Tesla" %>
+          </div>
+        </div>
+        <div class="col-span-1 flex justify-center lg:col-span-1">
+          <div class="h-12 w-auto flex items-center justify-center">
+            <%= image_tag "samsung.png", class: "h-8 w-auto object-contain", alt: "Samsung" %>
+          </div>
+        </div>
+        <div class="col-span-1 flex justify-center lg:col-span-1">
+          <div class="h-12 w-auto flex items-center justify-center">
+            <%= image_tag "yale.jpg", class: "h-12 w-auto object-contain", alt: "Yale" %>
+          </div>
         </div>
       </div>
     </div>
