@@ -14,14 +14,14 @@
 
 /* Salient-inspired Color Palette - More Colorful and Vibrant */
 :root {
-  --primary-blue: #3b82f6; /* blue-500 - brighter blue */
-  --primary-blue-dark: #2563eb; /* blue-600 */
+  --primary-blue: #2563eb; /* blue-600 - matches FluentRx header */
+  --primary-blue-dark: #1d4ed8; /* blue-700 */
   --accent-purple: #8b5cf6; /* violet-500 */
   --accent-pink: #ec4899; /* pink-500 */
   --accent-orange: #f97316; /* orange-500 */
-  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #8b5cf6 100%);
   --gradient-secondary: linear-gradient(135deg, #ec4899 0%, #f97316 100%);
-  --gradient-light: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+  --gradient-light: linear-gradient(135deg, #3b82f6 0%, #a78bfa 100%);
 }
 
 /* Blue accent with squiggly underline */
