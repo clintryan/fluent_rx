@@ -3,7 +3,9 @@
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
         <span class="sr-only">FluentRx</span>
-        <div class="text-2xl font-bold text-blue-600">FluentRx</div>
+        <div class="flex items-center">
+          <%= image_tag "FluentRx-logo.png", class: "h-24 w-auto", alt: "FluentRx Logo" %>
+        </div>
       </a>
     </div>
     <div class="flex lg:hidden">
@@ -22,8 +24,8 @@
       <a href="#contact" class="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors duration-200">Contact</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="https://calendly.com/fluentrx/infosession" class="btn-primary">
-        Book Free Session
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;" class="btn-primary">
+        Book a free consultation
       </a>
     </div>
   </nav>
