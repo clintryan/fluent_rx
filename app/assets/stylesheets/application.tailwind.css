@@ -253,6 +253,31 @@
   background: #dc2626;
 }
 
+/* Custom Color Classes - Replace Tailwind Colors */
+.bg-accent {
+  background-color: var(--accent-orange);
+}
+
+.bg-primary {
+  background-color: var(--primary-blue);
+}
+
+.bg-primary-light {
+  background-color: var(--highlight-blue);
+}
+
+.text-accent {
+  color: var(--accent-orange);
+}
+
+.text-primary {
+  color: var(--primary-blue);
+}
+
+.text-primary-hover:hover {
+  color: var(--primary-blue);
+}
+
 /* Section Transitions and Spacing */
 .section-padding {
   padding: 5rem 0;
@@ -272,6 +297,16 @@
   .hero-section {
     padding: 8rem 0;
   }
+}
+
+/* Custom spacing utilities */
+.pt-10vh {
+  padding-top: 10vh;
+}
+
+/* Course card aspect ratio */
+.aspect-10-7 {
+  aspect-ratio: 10/7;
 }
 
 /* Smooth scroll behavior for the entire page */

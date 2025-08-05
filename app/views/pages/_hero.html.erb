@@ -1,14 +1,14 @@
-<section class="hero-section relative overflow-hidden bg-white font-inter">
+<section class="hero-section relative overflow-hidden bg-white font-inter pt-8 lg:pt-12">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <!-- Hero Content -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-16 sm:py-24 lg:py-28">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-3 sm:py-4.5 lg:py-5">
       <!-- Text Content -->
       <div class="text-center lg:text-left">
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-6">
           Sound smarter when speaking English.
         </h1>
         <p class="mt-6 text-lg leading-8 text-gray-600 mb-10">
-          Personalized coaching to help you communicate your ideas with clarity and impact in any professional setting.
+          Personalized English Language Training to help you communicate your ideas with clarity and impact in any professional setting.
         </p>
         <div class="flex items-center justify-center lg:justify-start gap-x-6">
           <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;" class="btn-primary">
@@ -23,8 +23,8 @@
       <!-- Hero Image -->
       <div class="flex justify-center lg:justify-end">
         <div class="relative w-full max-w-lg">
-          <div class="w-full h-96 rounded-2xl overflow-hidden modern-image">
-            <%= image_tag "hero.jpg", class: "w-full h-full object-cover", alt: "Professional English Communication Training" %>
+          <div class="w-full rounded-2xl overflow-hidden modern-image" style="aspect-ratio: 10/7;">
+            <%= image_tag "hero.png", class: "w-full h-full object-cover object-center", alt: "Professional English Communication Training" %>
           </div>
           <!-- Decorative elements -->
           <div class="absolute -top-4 -left-4 w-20 h-20 bg-blue-100 rounded-full opacity-60"></div>
@@ -34,23 +34,23 @@
     </div>
 
     <!-- Wall of Fame Section -->
-    <div class="py-16 border-t border-gray-100">
-      <div class="mx-auto max-w-2xl text-center mb-12">
+    <div class="pt-10vh pb-4 border-t border-gray-100">
+      <div class="max-w-2xl text-left mb-12">
         <h2 class="text-2xl font-bold text-gray-900">
-          Helping professionals succeed at top global companies
+          Our clients come from companies including...
         </h2>
       </div>
       <div class="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-10">
-        <img class="col-span-1 max-h-8 w-full object-contain lg:col-span-1" src="<%= asset_path('citi.png') %>" alt="Citi" width="158" height="48">
-        <img class="col-span-1 max-h-8 w-full object-contain lg:col-span-1" src="<%= asset_path('jpmorgan.svg') %>" alt="JPMorgan Chase" width="158" height="48">
-        <img class="col-span-1 max-h-8 w-full object-contain lg:col-span-1" src="<%= asset_path('google.png') %>" alt="Google" width="158" height="48">
-        <img class="col-span-1 max-h-8 w-full object-contain lg:col-span-1" src="<%= asset_path('tesla.png') %>" alt="Tesla" width="158" height="48">
-        <img class="col-span-1 max-h-8 w-full object-contain lg:col-span-1" src="<%= asset_path('samsung.png') %>" alt="Samsung" width="158" height="48">
-        <img class="col-span-1 max-h-12 w-full object-contain lg:col-span-1" src="<%= asset_path('Tsmc.svg.png') %>" alt="TSMC" width="158" height="48">
-        <img class="col-span-1 max-h-12 w-full object-contain lg:col-span-1" src="<%= asset_path('Savills.svg.png') %>" alt="Savills" width="158" height="48">
-        <img class="col-span-1 max-h-8 w-full object-contain lg:col-span-1" src="<%= asset_path('CBRE.svg.png') %>" alt="CBRE" width="158" height="48">
-        <img class="col-span-1 max-h-8 w-full object-contain lg:col-span-1" src="<%= asset_path('Lenovo.png') %>" alt="Lenovo" width="158" height="48">
-        <img class="col-span-1 max-h-12 w-full object-contain lg:col-span-1" src="<%= asset_path('yale.jpg') %>" alt="Yale" width="158" height="48">
+        <%= image_tag "citi.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Citi" %>
+        <%= image_tag "jpmorgan.svg", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "JPMorgan Chase" %>
+        <%= image_tag "google.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Google" %>
+        <%= image_tag "tesla.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Tesla" %>
+        <%= image_tag "samsung.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Samsung" %>
+        <%= image_tag "Tsmc.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:col-span-1", alt: "TSMC" %>
+        <%= image_tag "Savills.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:col-span-1", alt: "Savills" %>
+        <%= image_tag "CBRE.svg.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "CBRE" %>
+        <%= image_tag "Lenovo.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Lenovo" %>
+        <%= image_tag "yale.jpg", class: "col-span-1 max-h-18 w-full object-contain lg:col-span-1", alt: "Yale" %>
       </div>
     </div>
   </div>
