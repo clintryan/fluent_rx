@@ -1,15 +1,15 @@
-<section id="courses" class="bg-gradient-section section-padding font-inter">
+<section id="courses" class="bg-background-light py-24">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:text-center mb-16">
-      <h2 class="text-lg font-semibold leading-8 tracking-tight accent-text">Our Courses</h2>
-      <p class="mt-2 heading-lg text-gray-900">
+      <h2 class="text-lg font-semibold leading-8 tracking-tight text-blue-accent">Our Courses</h2>
+      <p class="mt-2 text-5xl font-bold leading-tight tracking-tight text-text-dark">
         Find the right course to advance your career
       </p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Card 1: The Business Briefing -->
-      <div class="modern-card group relative">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group relative">
         <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
           <span class="bg-accent text-white px-4 py-1 rounded-full text-sm font-semibold">Most Popular</span>
         </div>
@@ -45,14 +45,12 @@
               <span class="text-sm">Master persuasive speaking skills, from storytelling to forming a strong argument.</span>
             </li>
           </ul>
-          <a href="#" class="btn-primary w-full text-center">
-            Explore course
-          </a>
+          <%= render 'shared/button', text: "Explore course", url: "#", type: :primary, options: { class: "w-full text-center" } %>
         </div>
       </div>
 
       <!-- Card 2: The Interview Playbook -->
-      <div class="modern-card group">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group">
         <div class="relative overflow-hidden rounded-lg mb-6">
           <%= image_tag "the-interview-playbook.png", class: "w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105", alt: "The Interview Playbook" %>
         </div>
@@ -85,14 +83,12 @@
               <span class="text-sm">Practice with a seasoned industry professional to refine your performance.</span>
             </li>
           </ul>
-          <a href="#" class="btn-primary w-full text-center">
-            Explore course
-          </a>
+          <%= render 'shared/button', text: "Explore course", url: "#", type: :primary, options: { class: "w-full text-center" } %>
         </div>
       </div>
 
       <!-- Card 3: The Job Toolkit -->
-      <div class="modern-card group">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group">
         <div class="relative overflow-hidden rounded-lg mb-6">
           <%= image_tag "the-job-toolkit.png", class: "w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105", alt: "The Job Toolkit" %>
         </div>
@@ -125,14 +121,12 @@
               <span class="text-sm">Get targeted, expert feedback on any of your own work materials.</span>
             </li>
           </ul>
-          <a href="#" class="btn-primary w-full text-center">
-            Explore course
-          </a>
+          <%= render 'shared/button', text: "Explore course", url: "#", type: :primary, options: { class: "w-full text-center" } %>
         </div>
       </div>
 
       <!-- Card 4: The Score Accelerator -->
-      <div class="modern-card group">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group">
         <div class="relative overflow-hidden rounded-lg mb-6">
           <%= image_tag "the-score-accelerator.png", class: "w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105", alt: "The Score Accelerator" %>
         </div>
@@ -165,14 +159,12 @@
               <span class="text-sm">Build the confidence you need to achieve your target score.</span>
             </li>
           </ul>
-          <a href="#" class="btn-primary w-full text-center">
-            Explore course
-          </a>
+          <%= render 'shared/button', text: "Explore course", url: "#", type: :primary, options: { class: "w-full text-center" } %>
         </div>
       </div>
 
       <!-- Card 5: The Educator's Edge -->
-      <div class="modern-card group relative">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group relative">
         <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
           <span class="bg-accent text-white px-4 py-1 rounded-full text-sm font-semibold">New Course</span>
         </div>
@@ -208,14 +200,12 @@
               <span class="text-sm">Learn proven, practical strategies from an active international school teacher.</span>
             </li>
           </ul>
-          <a href="#" class="btn-primary w-full text-center">
-            Explore course
-          </a>
+          <%= render 'shared/button', text: "Explore course", url: "#", type: :primary, options: { class: "w-full text-center" } %>
         </div>
       </div>
 
       <!-- Card 6: The Strategy Room -->
-      <div class="modern-card group relative">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group relative">
         <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
           <span class="bg-accent text-white px-4 py-1 rounded-full text-sm font-semibold">New Course</span>
         </div>

@@ -1,0 +1,24 @@
+<%# app/views/shared/_button.html.erb %>
+<%
+  # Set default type if not provided
+  type ||= :primary
+  
+  # Set default options if not provided
+  options ||= {}
+
+  # Define styles for each button type
+  styles = {
+    primary: "bg-primary text-white hover:bg-primary-dark shadow-md hover:shadow-lg",
+    ghost: "bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white shadow-md hover:shadow-lg",
+    accent: "bg-accent text-white hover:bg-accent-dark shadow-md hover:shadow-lg"
+  }
+
+  # Common styles for all buttons
+  common_styles = "inline-block py-3 px-6 rounded-md font-semibold transition-all duration-300 ease-in-out hover:-translate-y-px relative overflow-hidden"
+  
+  # Merge custom classes with common styles
+  custom_class = options.delete(:class) || ""
+  final_class = "#{common_styles} #{styles[type]} #{custom_class}".strip
+%>
+
+<%= link_to text, url, class: final_class, **options %> 
