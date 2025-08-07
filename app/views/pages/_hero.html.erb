@@ -1,18 +1,18 @@
-<section class="relative overflow-hidden bg-white pt-8 lg:pt-12 py-24 lg:py-32 min-h-[80vh] flex items-center">
+<section class="relative overflow-hidden bg-white pt-4 lg:pt-6 pb-12 lg:pb-16 min-h-[70vh] flex items-center">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <!-- Hero Content -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-3 sm:py-4.5 lg:py-5">
       <!-- Text Content -->
       <div class="text-center lg:text-left">
-        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-6">
+        <h2 class="text-4xl font-bold tracking-tight text-primary sm:text-6xl mb-6">
           Sound smarter when speaking English.
-        </h1>
-        <p class="mt-6 text-lg leading-8 text-gray-600 mb-10">
+        </h2>
+        <p class="mt-6 text-lg leading-8 text-text-dark mb-10">
           Personalized English Language Training to help you communicate your ideas with clarity and impact in any professional setting.
         </p>
         <div class="flex items-center justify-center lg:justify-start gap-x-6">
-          <%= render 'shared/button', text: "Book a free consultation", url: "javascript:void(0)", type: :primary, options: { onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;" } %>
-          <%= render 'shared/button', text: "See our courses", url: "#courses", type: :ghost, options: {} %>
+          <%= render 'shared/button', text: "Schedule free assessment", url: "javascript:void(0)", type: :primary, options: { onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;" } %>
+          <%= render 'shared/button', text: "Explore courses", url: "#courses", type: :secondary, options: {} %>
         </div>
       </div>
       
@@ -30,23 +30,30 @@
     </div>
 
     <!-- Wall of Fame Section -->
-    <div class="pt-20 pb-4 border-t border-gray-100">
+    <div class="pt-10 pb-4 border-t border-gray-100">
       <div class="max-w-2xl text-left mb-12">
-        <h2 class="text-lg leading-8 text-gray-600">
+        <h2 class="text-lg leading-8 text-text-dark">
           Our clients come from companies including...
         </h2>
       </div>
-      <div class="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-10">
-        <%= image_tag "citi.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Citi" %>
-        <%= image_tag "jpmorgan.svg", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "JPMorgan Chase" %>
-        <%= image_tag "google.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Google" %>
-        <%= image_tag "tesla.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Tesla" %>
-        <%= image_tag "samsung.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Samsung" %>
-        <%= image_tag "Tsmc.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:col-span-1", alt: "TSMC" %>
-        <%= image_tag "Savills.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:col-span-1", alt: "Savills" %>
-        <%= image_tag "CBRE.svg.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "CBRE" %>
-        <%= image_tag "Lenovo.png", class: "col-span-1 max-h-12 w-full object-contain lg:col-span-1", alt: "Lenovo" %>
-        <%= image_tag "yale.jpg", class: "col-span-1 max-h-18 w-full object-contain lg:col-span-1", alt: "Yale" %>
+      <div class="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none lg:gap-x-16 lg:gap-y-8 logo-grid" style="grid-template-columns: repeat(2, 1fr);">
+        <style>
+          @media (min-width: 1024px) {
+            .logo-grid {
+              grid-template-columns: repeat(5, 1fr) !important;
+            }
+          }
+        </style>
+        <%= image_tag "citi.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Citi" %>
+        <%= image_tag "jpmorgan.svg", class: "col-span-1 max-h-12 w-full object-contain lg:h-6", alt: "JPMorgan Chase" %>
+        <%= image_tag "google.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Google" %>
+        <%= image_tag "tesla.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-6", alt: "Tesla" %>
+        <%= image_tag "samsung.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Samsung" %>
+        <%= image_tag "Tsmc.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:h-12", alt: "TSMC" %>
+        <%= image_tag "Savills.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:h-12", alt: "Savills" %>
+        <%= image_tag "CBRE.svg.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-6", alt: "CBRE" %>
+        <%= image_tag "Lenovo.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Lenovo" %>
+        <%= image_tag "yale.jpg", class: "col-span-1 max-h-18 w-full object-contain lg:h-12", alt: "Yale" %>
       </div>
     </div>
   </div>
