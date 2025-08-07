@@ -1,10 +1,10 @@
 <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-200 font-inter transition-all duration-300">
-  <nav class="mx-auto flex w-full items-center justify-between px-6 py-2 lg:px-8" aria-label="Global">
+  <nav class="mx-auto flex max-w-7xl w-full items-center justify-between px-6 py-2 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
-      <a href="#" class="-m-1.5 p-1.5">
+      <a href="/" class="-m-1.5 p-1.5">
         <span class="sr-only">FluentRx</span>
         <div class="flex items-center">
-          <%= image_tag "FluentRx-logo-horizontal.png", class: "h-20 w-auto", alt: "FluentRx Logo" %>
+          <%= image_tag "FluentRx-logo-horizontal.png", class: "h-8 sm:h-10 md:h-12 lg:h-16 xl:h-20 w-auto max-h-8 sm:max-h-10 md:max-h-12 lg:max-h-16 xl:max-h-20", alt: "FluentRx Logo" %>
         </div>
       </a>
     </div>
@@ -17,14 +17,13 @@
       </button>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
-      <a href="#home" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Home</a>
-      <a href="/about" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">About</a>
-      <a href="#courses" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Courses</a>
-      <a href="#testimonials" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Testimonials</a>
-      <a href="#contact" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Contact</a>
+      <a href="/our-approach" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Our Approach</a>
+      <a href="/client-results" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Client Results</a>
+      <a href="/courses" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Our Courses</a>
+      <a href="/contact" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors duration-200">Contact Us</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <%= render 'shared/button', text: "Schedule free assessment", url: "javascript:void(0)", type: :primary, options: { onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;" } %>
+              <%= render 'shared/button', text: "Book a free consultation", url: "/book", type: :primary, options: {} %>
     </div>
   </nav>
 </header>

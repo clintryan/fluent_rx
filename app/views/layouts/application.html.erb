@@ -15,7 +15,9 @@
   </head>
 
   <body class="flex flex-col min-h-screen antialiased">
-    <%= render 'pages/header' %>
+    <% unless controller_name == 'pages' && action_name == 'book' %>
+      <%= render 'pages/header' %>
+    <% end %>
     <main class="flex-grow">
       <%= yield %>
     </main>

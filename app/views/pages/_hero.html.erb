@@ -8,11 +8,11 @@
           Sound smarter when speaking English.
         </h2>
         <p class="mt-6 text-lg leading-8 text-text-dark mb-10">
-          Personalized English Language Training to help you communicate your ideas with clarity and impact in any professional setting.
+          Personalized English language training to help you communicate your ideas with clarity and impact in any professional setting.
         </p>
-        <div class="flex items-center justify-center lg:justify-start gap-x-6">
-          <%= render 'shared/button', text: "Schedule free assessment", url: "javascript:void(0)", type: :primary, options: { onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;" } %>
-          <%= render 'shared/button', text: "Explore courses", url: "#courses", type: :secondary, options: {} %>
+        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+          <%= render 'shared/button', text: "Book a free consultation", url: "/book", type: :primary, options: { class: "w-full sm:w-auto" } %>
+          <%= render 'shared/button', text: "Explore courses", url: "#courses", type: :ghost, options: { class: "w-full sm:w-auto" } %>
         </div>
       </div>
       
@@ -44,16 +44,16 @@
             }
           }
         </style>
-        <%= image_tag "citi.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Citi" %>
-        <%= image_tag "jpmorgan.svg", class: "col-span-1 max-h-12 w-full object-contain lg:h-6", alt: "JPMorgan Chase" %>
-        <%= image_tag "google.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Google" %>
-        <%= image_tag "tesla.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-6", alt: "Tesla" %>
-        <%= image_tag "samsung.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Samsung" %>
-        <%= image_tag "Tsmc.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:h-12", alt: "TSMC" %>
-        <%= image_tag "Savills.svg.png", class: "col-span-1 max-h-18 w-full object-contain lg:h-12", alt: "Savills" %>
-        <%= image_tag "CBRE.svg.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-6", alt: "CBRE" %>
-        <%= image_tag "Lenovo.png", class: "col-span-1 max-h-12 w-full object-contain lg:h-8", alt: "Lenovo" %>
-        <%= image_tag "yale.jpg", class: "col-span-1 max-h-18 w-full object-contain lg:h-12", alt: "Yale" %>
+        <%= image_tag "citi.png", class: "col-span-1 max-h-6 w-full object-contain lg:h-8", alt: "Citi" %>
+        <%= image_tag "jpmorgan.svg", class: "col-span-1 max-h-6 w-full object-contain lg:h-6", alt: "JPMorgan Chase" %>
+        <%= image_tag "google.png", class: "col-span-1 max-h-6 w-full object-contain lg:h-8", alt: "Google" %>
+        <%= image_tag "tesla.png", class: "col-span-1 max-h-4 w-full object-contain lg:h-4", alt: "Tesla" %>
+        <%= image_tag "samsung.png", class: "col-span-1 max-h-6 w-full object-contain lg:h-8", alt: "Samsung" %>
+        <%= image_tag "Tsmc.svg.png", class: "col-span-1 max-h-10 w-full object-contain lg:h-16", alt: "TSMC" %>
+        <%= image_tag "Savills.svg.png", class: "col-span-1 max-h-10 w-full object-contain lg:h-16", alt: "Savills" %>
+        <%= image_tag "CBRE.svg.png", class: "col-span-1 max-h-4 w-full object-contain lg:h-4", alt: "CBRE" %>
+        <%= image_tag "Lenovo.png", class: "col-span-1 max-h-6 w-full object-contain lg:h-8", alt: "Lenovo" %>
+        <%= image_tag "yale.jpg", class: "col-span-1 max-h-10 w-full object-contain lg:h-16", alt: "Yale" %>
       </div>
     </div>
   </div>

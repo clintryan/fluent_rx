@@ -2,22 +2,22 @@
 
 /* Custom Colors for Tailwind v4 */
 @theme {
-  /* --- Primary Colors (Brand Identity) --- */
+  /* --- Primary Color (Brand Identity) --- */
   --color-primary: #004C8F;
   --color-primary-dark: #003B70;
   --color-primary-light: #E6EEF4;
 
-  /* --- Supporting Color (Information Hierarchy) --- */
-  --color-secondary: #E46262;
-  --color-secondary-dark: #D44A4A;
+  /* --- Accent Color (Primary Buttons) --- */
+  --color-accent: #E46262;
+  --color-accent-dark: #D44A4A;
 
-  /* --- Accent Colors (Call to Action) --- */
-  --color-accent: #2D3748;
-  --color-accent-dark: #1A202C; 
+  /* --- Supporting Color (Secondary Actions) --- */
+  --color-secondary: #475569; /* Blue slate - subtle blue undertone */
+  --color-secondary-dark: #334155; /* Darker blue slate for hovers */ 
 
-  /* --- Neutral Colors (Foundation) --- */
-  --color-background-light: #F7F9FC;
-  --color-text-dark: #374151;
+  /* --- Neutral Colors (Foundation & Text) --- */
+  --color-background: #E1E9F4;
+  --color-text: #313A49;
 }
 /* Font Awesome Icons */
 @import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -80,6 +80,11 @@
 .benefits-card-icon-hover:hover {
   background: #0056B3;
   transform: scale(1.05);
+}
+
+/* Benefits card hover effect - icon changes color when hovering over entire card */
+.group:hover .benefits-card-icon-hover {
+  color: var(--color-primary);
 }
 
 /* Benefits card link hover effect - Keep this custom */

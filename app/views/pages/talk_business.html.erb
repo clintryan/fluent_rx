@@ -36,10 +36,10 @@
             <span class="text-gray-700">Build organizational speaking skills for presentations and debates</span>
           </div>
         </div>
-        <div class="mt-12 flex items-center justify-center lg:justify-start gap-x-6">
-          <%= render 'shared/button', text: "Schedule free assessment", url: "https://calendly.com/fluentrx/infosession", type: :primary, options: { class: "text-lg px-8 py-4" } %>
-          <%= render 'shared/button', text: "Explore packages", url: "#packages", type: :secondary, options: { class: "text-lg px-8 py-4" } %>
-        </div>
+                  <div class="mt-12 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <%= render 'shared/button', text: "Book a free consultation", url: "/book", type: :primary, options: { class: "w-full sm:w-auto text-lg px-8 py-4" } %>
+            <%= render 'shared/button', text: "Explore packages", url: "#packages", type: :secondary, options: { class: "w-full sm:w-auto text-lg px-8 py-4" } %>
+          </div>
       </div>
       
       <!-- Hero Image -->

@@ -10,9 +10,9 @@
         Clear, confident communication is the most powerful tool for your career. Let's build yours together.
       </p>
       
-      <div class="mt-10 flex items-center justify-center gap-x-6">
-        <%= render 'shared/button', text: "Schedule free assessment", url: "javascript:void(0)", type: :primary, options: { onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;" } %>
-        <%= render 'shared/button', text: "Explore courses", url: "#courses", type: :secondary, options: {} %>
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <%= render 'shared/button', text: "Book a free consultation", url: "/book", type: :primary, options: { class: "w-full sm:w-auto" } %>
+        <%= render 'shared/button', text: "Explore courses", url: "#courses", type: :ghost, options: { class: "w-full sm:w-auto" } %>
       </div>
     </div>
   </div>
