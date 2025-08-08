@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'our-approach', to: 'pages#our_approach'
   get 'client-results', to: 'pages#client_results'
   get 'contact', to: 'pages#contact'
+  post 'contact', to: 'pages#submit_contact'
   
   # Courses
   get 'courses', to: 'courses#index'

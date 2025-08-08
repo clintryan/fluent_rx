@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <style>
+      body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+      .header { background-color: #004C8F; color: white; padding: 20px; text-align: center; }
+      .content { padding: 20px; }
+      .contact-info { background-color: #f8f9fa; padding: 15px; margin: 20px 0; border-left: 4px solid #004C8F; }
+      .message-content { background-color: #fff; border: 1px solid #ddd; padding: 15px; margin: 20px 0; }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>New Contact Form Submission</h1>
+      <p>FluentRx Website Contact Form</p>
+    </div>
+    
+    <div class="content">
+      <div class="contact-info">
+        <h2>Contact Details:</h2>
+        <p><strong>Name:</strong> <%= @name %></p>
+        <p><strong>Email:</strong> <a href="mailto:<%= @email %>"><%= @email %></a></p>
+        <% if @phone.present? %>
+          <p><strong>Phone:</strong> <a href="tel:<%= @phone %>"><%= @phone %></a></p>
+        <% end %>
+        <p><strong>Subject:</strong> <%= @subject %></p>
+        <p><strong>Submitted:</strong> <%= @submitted_at.strftime("%B %d, %Y at %I:%M %p %Z") %></p>
+      </div>
+      
+      <div class="message-content">
+        <h2>Message:</h2>
+        <%= simple_format(@message) %>
+      </div>
+    </div>
+  </body>
+</html>

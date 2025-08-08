@@ -1,21 +1,168 @@
+<%= content_for :page_title, "Contact Us - FluentRx" %>
+
 <section class="bg-white py-24">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <!-- Section Header -->
-    <div class="mx-auto max-w-2xl lg:text-center mb-16">
-      <p class="text-lg font-semibold leading-8 tracking-tight text-secondary section-underline">Contact</p>
-      <h1 class="mt-2 text-5xl font-bold leading-tight tracking-tight text-primary">
-        Get in touch with our team
-      </h1>
-      <p class="mt-6 text-lg leading-8 text-text-dark">
-        Ready to transform your professional communication? Let's discuss how FluentRx can help you achieve your goals.
-      </p>
-    </div>
+    <!-- Flash Messages -->
+    <% if flash[:success] %>
+      <div class="mb-8 rounded-md bg-green-50 p-4">
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div class="ml-3">
+            <p class="text-sm font-medium text-green-800"><%= flash[:success] %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    
+    <% if flash[:error] %>
+      <div class="mb-8 rounded-md bg-red-50 p-4">
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <svg class="h-5 w-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div class="ml-3">
+            <p class="text-sm font-medium text-red-800"><%= flash[:error] %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <!-- Left Column: Contact Form -->
+      <div>
+        <div class="max-w-xl">
+          <p class="text-lg font-semibold leading-8 tracking-tight text-secondary section-underline section-underline-left">Contact Us</p>
+          <h2 class="mt-2 text-4xl font-bold tracking-tight text-primary sm:text-5xl">
+            Get in touch.
+          </h2>
+          <p class="mt-6 text-lg leading-8 text-text-dark">
+            We're here to answer your questions. Fill out the form below, and a member of the FluentRx team will be in touch shortly.
+          </p>
+        </div>
 
-    <!-- Content will go here -->
-    <div class="prose prose-lg mx-auto">
-      <p class="text-gray-600">
-        This page will contain contact information, contact forms, and ways to get in touch with the FluentRx team.
-      </p>
+        <%= form_tag contact_path, method: :post, data: { turbo: false }, class: "mt-12 space-y-8" do %>
+          <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <!-- Full Name -->
+            <div class="sm:col-span-2">
+              <label for="full_name" class="block text-sm font-medium text-gray-700">Full Name</label>
+              <div class="mt-1">
+                <input type="text" name="full_name" id="full_name" autocomplete="name" required
+                  class="block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary sm:text-sm">
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="sm:col-span-2">
+              <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+              <div class="mt-1">
+                <input type="email" name="email" id="email" autocomplete="email" required
+                  class="block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary sm:text-sm">
+              </div>
+            </div>
+
+            <!-- Phone (Optional) -->
+            <div class="sm:col-span-2">
+              <label for="phone" class="block text-sm font-medium text-gray-700">
+                Phone Number <span class="text-gray-500">(Optional)</span>
+              </label>
+              <div class="mt-1">
+                <input type="tel" name="phone" id="phone" autocomplete="tel"
+                  class="block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary sm:text-sm">
+              </div>
+            </div>
+
+            <!-- Subject Dropdown -->
+            <div class="sm:col-span-2">
+              <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+              <div class="mt-1">
+                <select id="subject" name="subject" required
+                  class="block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary sm:text-sm">
+                  <option value="">Please select...</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="course">Question About a Course</option>
+                  <option value="support">Technical Support</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="sm:col-span-2">
+              <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+              <div class="mt-1">
+                <textarea id="message" name="message" rows="4" required
+                  class="block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary sm:text-sm"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="sm:col-span-2">
+            <%= submit_tag "Send message", class: "inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-secondary hover:bg-secondary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary transition-colors duration-200 w-full sm:w-auto" %>
+          </div>
+        <% end %>
+      </div>
+
+      <!-- Right Column: Additional Info & CTA -->
+      <div class="lg:pl-8 xl:pl-12">
+        <div class="space-y-12">
+          <!-- Alternative Contact Methods -->
+          <div class="space-y-6">
+            <h3 class="text-lg font-semibold text-gray-900">Alternative Contact Methods</h3>
+            
+            <div class="space-y-4">
+              <div class="flex items-center space-x-4">
+                <div class="flex-shrink-0">
+                  <svg class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-medium text-gray-900">Email</p>
+                  <p class="text-sm text-gray-600">info@fluentrx.com</p>
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-4">
+                <div class="flex-shrink-0">
+                  <svg class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-medium text-gray-900">Business Hours</p>
+                  <p class="text-sm text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM (GMT+8)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Book a Consultation CTA -->
+          <div class="bg-gray-50 rounded-2xl p-8">
+            <div class="space-y-6">
+              <h3 class="text-2xl font-bold tracking-tight text-primary">
+                Ready to build a plan for your professional voice?
+              </h3>
+              <p class="text-lg text-text-dark">
+                Schedule a free consultation with our expert team to discuss your goals and create a personalized learning path.
+              </p>
+              <%= render 'shared/button', 
+                  text: "Book a free consultation", 
+                  url: "javascript:void(0)", 
+                  type: :primary, 
+                  options: { 
+                    onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/fluentrx/infosession'});return false;",
+                    class: "w-full"
+                  } 
+              %>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

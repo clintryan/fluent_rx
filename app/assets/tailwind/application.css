@@ -56,6 +56,12 @@
   border-radius: 2px;
 }
 
+/* Left-aligned variant of the section underline */
+.section-underline-left::after {
+  left: 0;
+  transform: none;
+}
+
 /* Button shimmer effect - Keep this custom */
 .btn-shimmer::before {
   content: '';
