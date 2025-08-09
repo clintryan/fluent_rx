@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "name": "Paul Wong",
+    "professionalContext": "Navigating the Canadian job market",
+    "language": "en",
+    "tags": ["homepage", "featured", "The Job Toolkit", "The Interview Playbook"],
+    "testimonialText": "Clint is an excellent tutor who provided a solid plan for my resume, cover letter, job interview skills, and pronunciation. His expertise, patience, and practical tips made me more confident in navigating the job market in Canada. I highly recommend him.",
+    "caseStudy": {
+      "headline": "A Solid Plan for the Canadian Job Market",
+      "challenge": "A professional needed a comprehensive strategy for his resume, cover letter, and interview skills to confidently enter the Canadian job market.",
+      "solution": "Through 'The Job Toolkit' and 'The Interview Playbook', we developed a structured plan with practical tips that built confidence and refined professional communication.",
+      "result": "Became significantly more confident in navigating the professional job market in Canada."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Charlene",
+    "professionalContext": "Mastering Business English & Interviews",
+    "language": "en",
+    "tags": ["homepage", "featured", "The Business Briefing", "The Interview Playbook", "The Strategy Room"],
+    "testimonialText": "The best English teacher for learning business English. He has different kinds of materials tailored to different subjects, such as WSJ cases that can sharpen not only your English skills but also your business thinking. He will give you feedback based on your class performance and also advice on how to improve your weaknesses.",
+     "caseStudy": {
+      "headline": "Sharpening Business Thinking, Not Just English",
+      "challenge": "A client wanted to master Business English using relevant materials that would also sharpen her business acumen.",
+      "solution": "Using tailored materials like Wall Street Journal case studies in 'The Business Briefing', we focused on targeted feedback to improve specific weaknesses.",
+      "result": "The client successfully sharpened both her English skills and her strategic business thinking."
+    }
+  },
+  {
+    "id": 3,
+    "name": "魏中偉",
+    "professionalContext": "Seeking Real-World Business Scenarios",
+    "language": "zh",
+    "tags": ["homepage", "featured", "The Strategy Room", "The Business Briefing"],
+    "testimonialText": "Clint creates a classroom environment like the real business world. Sometimes he provides valuable and tough feedback on your weaknesses, much like real communication and negotiation at work. The materials are sourced from The Wall Street Journal, TED, and Harvard Business Review.",
+    "caseStudy": {
+      "headline": "A Classroom That Mirrors the Real Business World",
+      "challenge": "A professional sought a learning environment that provided the direct, tough feedback characteristic of a real business setting.",
+      "solution": "Using materials from HBR and WSJ in 'The Strategy Room', the focus was on providing direct, valuable feedback on communication and negotiation strategy.",
+      "result": "Experienced a learning environment that successfully replicated real-world business communication."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sally Li",
+    "professionalContext": "Financial Professional",
+    "language": "en",
+    "tags": ["homepage", "The Strategy Room", "The Business Briefing"],
+    "testimonialText": "What I like the most about Clint is that he prepares his own, original course materials, most of which are business-related. I can tell immediately that he spent quite a lot of effort on them. For people who are in the business/financial field, or for those who are interested in these topics, Clint will be a very good teacher for you.",
+    "caseStudy": null
+  },
+  {
+    "id": 5,
+    "name": "Jeff Shih",
+    "professionalContext": "Securing an International Partnership",
+    "language": "zh",
+    "tags": ["homepage", "featured", "The Strategy Room", "The Business Briefing"],
+    "testimonialText": "An opportunity arose with a Singaporean company, but I worried my English presentation skills weren't enough. I asked Clint, a business English expert, for help. He corrected my presentation content and techniques with phrases more suitable for foreigners. After the presentation, we secured the partnership. I'm very grateful to Clint's professional help and highly recommend him.",
+    "caseStudy": {
+      "headline": "From a High-Stakes Pitch to a Global Partnership",
+      "challenge": "A client was worried his English presentation skills were not persuasive enough to secure a critical partnership with a Singaporean company.",
+      "solution": "Leveraging 'The Business Briefing' course, we refined the presentation's content and delivery with strategic language tailored for international business.",
+      "result": "Successfully secured the partnership after delivering the improved presentation."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Jassica Liu",
+    "professionalContext": "Working Professional",
+    "language": "zh",
+    "tags": ["The Strategy Room", "The Interview Playbook", "The Business Briefing"],
+    "testimonialText": "Clint is a great teacher, especially for working professionals. His materials include business English and case studies, which I personally like. If students have specific workplace English needs, Clint is very willing to accommodate and find practical learning methods. His expertise in business English has been a huge help to my career.",
+    "caseStudy": null
+  },
+  {
+    "id": 7,
+    "name": "Yvonne",
+    "professionalContext": "Graduate School Applicant",
+    "language": "en",
+    "tags": ["The Score Accelerator"],
+    "testimonialText": "I have been preparing my graduate school application, including the Statement of Purpose. Clint kindly reviewed all the documents with me and provided many professional suggestions. My application materials look much better after his edits. Clint will be the most significant contributor if I am enrolled in my dream school.",
+    "caseStudy": null
+  },
+  {
+    "id": 8,
+    "name": "Anonymous",
+    "professionalContext": "Enhancing Professional Communication",
+    "language": "en",
+    "tags": ["homepage", "The Business Briefing"],
+    "testimonialText": "Clint has a lesson library covering a wide variety of topics including business, technology, environment, and lifestyle. It has helped me to communicate with native English speakers in professional settings confidently. I would like to recommend Clint to everyone who wants to speak English professionally.",
+    "caseStudy": null
+  },
+  {
+    "id": 9,
+    "name": "Iris Zhang",
+    "professionalContext": "Refining a Presentation",
+    "language": "en",
+    "tags": ["The Strategy Room", "The Business Briefing"],
+    "testimonialText": "Clint is a highly professional English teacher. He provided me with useful and precise advice on my presentation, including the structure, appropriate wording, and presentation tone. His feedback was accurate and fruitful.",
+    "caseStudy": null
+  },
+  {
+    "id": 10,
+    "name": "Serene Tang",
+    "professionalContext": "Structuring Complex Ideas",
+    "language": "en",
+    "tags": ["The Strategy Room", "The Educator's Edge", "The Business Briefing"],
+    "testimonialText": "Clint is a professional English teacher who can provide students with extremely useful and practical feedback on spoken English and ways to construct a complex idea. I highly recommend Clint to anyone who wants to improve conversational and written English.",
+    "caseStudy": null
+  },
+  {
+    "id": 11,
+    "name": "Anonymous",
+    "professionalContext": "Preparing for Real-World Conversations",
+    "language": "en",
+    "tags": ["homepage", "The Business Briefing"],
+    "testimonialText": "Clint corrected my mistakes and gave me better ways to speak. He knows I am eager to improve my English, so he doesn't speak slowly for me—because no one would slow down for me while studying or working. His teaching way is really helpful to make progress.",
+    "caseStudy": null
+  },
+  {
+    "id": 12,
+    "name": "Taehoon Lee",
+    "professionalContext": "Discussing Industry-Specific Topics",
+    "language": "en",
+    "tags": ["The Strategy Room", "The Business Briefing"],
+    "testimonialText": "In my recent classes, we've been discussing topics related to economics and business strategy. Some of the topics are related to my work. The discussion topics are interesting and help me express my opinions in English. Well-prepared material and good feedback.",
+    "caseStudy": null
+  },
+  {
+    "id": 13,
+    "name": "Anson Wang",
+    "professionalContext": "Advanced Business Communication",
+    "language": "en",
+    "tags": ["The Business Briefing", "The Strategy Room"],
+    "testimonialText": "A great teacher, suitable for mid-level or advanced students looking to improve oral English as well as business communication skills. Clint is good at leading students to think from different points of view and try to express themselves concisely.",
+    "caseStudy": null
+  },
+  {
+    "id": 14,
+    "name": "Florence YU",
+    "professionalContext": "Building Interview Confidence",
+    "language": "en",
+    "tags": ["The Interview Playbook", "The Job Toolkit"],
+    "testimonialText": "Clint is a super friendly and supportive teacher who provided useful feedback for my interview training session. I boosted my confidence for the real interview, and I utilized the interview skills which Clint mentioned in the class.",
+    "caseStudy": null
+  },
+  {
+    "id": 15,
+    "name": "Anonymous",
+    "professionalContext": "Learning from Business Cases",
+    "language": "en",
+    "tags": ["The Strategy Room", "homepage"],
+    "testimonialText": "You can always find how diligent he is in preparing slides and taking notes. He is careful at listening and provides constructive feedback not only in vocabulary and pronunciation but also in sentence formulation. I learnt a lot from business series discussions and Harvard business cases!",
+    "caseStudy": null
+  },
+  {
+    "id": 16,
+    "name": "Joyce",
+    "professionalContext": "Seeking a Personalized Learning Plan",
+    "language": "en",
+    "tags": ["personalizedFeedback", "homepage"],
+    "testimonialText": "Clint is an exceptionally communicative teacher who adeptly focuses on your responsiveness and tailors his approaches to meet your needs. I encourage you to engage with Clint to personalize your goals and a learning plan. He can offer insightful ideas that could greatly benefit you.",
+    "caseStudy": null
+  },
+  {
+    "id": 17,
+    "name": "Julie.C",
+    "professionalContext": "Polishing Spoken English",
+    "language": "en",
+    "tags": ["personalizedFeedback"],
+    "testimonialText": "Clint is really good at giving feedback and he lets students talk for most of the class time, which I appreciate a lot! He also gives detailed notes and a recorded video of our mistakes after class. A well-organized class and I highly recommend people come to polish their English speaking skills!",
+    "caseStudy": null
+  },
+  {
+    "id": 18,
+    "name": "MENG-CHIEH LIN",
+    "professionalContext": "Targeting Personal Goals",
+    "language": "en",
+    "tags": ["The Interview Playbook", "personalizedFeedback"],
+    "testimonialText": "Clint helped me to discover my bad patterns of grammar and pronunciation. Also, he adjusted the class based on my needs. He has a very good sense regarding business topics with his past experience and is very willing to cater to my needs regarding interviews and personal goals.",
+    "caseStudy": null
+  },
+  {
+    "id": 19,
+    "name": "陳",
+    "professionalContext": "Correcting Spoken Errors",
+    "language": "zh",
+    "tags": ["personalizedFeedback"],
+    "testimonialText": "I like that Clint always sorts out the speaking mistakes I made in class. Because there's a real gap between writing and speaking, this helped me with things I hadn't noticed in my speaking before. He also noticed I was using the wrong words because I couldn't think of the right ones. Very attentive.",
+    "caseStudy": null
+  },
+  {
+    "id": 20,
+    "name": "薛名祐",
+    "professionalContext": "Structuring a Presentation",
+    "language": "zh",
+    "tags": ["The Strategy Room", "The Business Briefing", "featured"],
+    "testimonialText": "This time the teacher gave a presentation assignment. Although I was not proficient, the teacher was able to point out conceptual problems in my delivery. It breaks the existing framework of 'Chinglish' thinking and can help to better structure the content of a presentation.",
+    "caseStudy": {
+      "headline": "Breaking the 'Chinglish' Framework",
+      "challenge": "A client's presentation delivery was being hindered by 'Chinglish' thinking, which affected the structure and clarity of the content.",
+      "solution": "Through a presentation assignment in 'The Strategy Room', we identified and addressed the conceptual problems in the delivery.",
+      "result": "The client was able to break his existing framework and better structure the content of his presentations."
+    }
+  },
+  {
+    "id": 21,
+    "name": "Chung Han Lo",
+    "professionalContext": "Improving Logical Expression",
+    "language": "zh",
+    "tags": ["The Strategy Room", "personalizedFeedback"],
+    "testimonialText": "He gives students a lot of time to practice speaking and corrects many unconscious verbal mistakes. The class content can be arranged according to the topics the student is interested in, and he logically asks questions during class to guide students to think. Recommended for students with some basic English proficiency to learn even more!",
+    "caseStudy": null
+  },
+  {
+    "id": 22,
+    "name": "Tzu Jung Verna Kao",
+    "professionalContext": "Visual and Case-Study Learner",
+    "language": "en",
+    "tags": ["The Strategy Room", "The Business Briefing"],
+    "testimonialText": "Learning English can be a challenging journey, but Clint made it much easier for me. He always had interesting cases ready for our lessons, and his slides were super helpful. What I appreciated the most was that he explained everything in a way that I could understand, even the smallest details.",
+    "caseStudy": null
+  },
+  {
+    "id": 23,
+    "name": "Anonymous",
+    "professionalContext": "For the Ambitious Professional",
+    "language": "zh",
+    "tags": ["homepage", "The Business Briefing"],
+    "testimonialText": "This teacher is suitable for students with a good foundation who can understand native speakers. Students with a foundation will find they gain a lot. During class, the teacher records your mistakes and corrects them with you. I think this teaching method is great for working professionals!",
+    "caseStudy": null
+  },
+  {
+    "id": 24,
+    "name": "Celica",
+    "professionalContext": "Seeking to Sound Smarter, Not Just Fluent",
+    "language": "en",
+    "tags": ["featured", "homepage", "The Strategy Room"],
+    "testimonialText": "Other teachers told me my English was fluent, but I wanted something more challenging. Clint was different. In our trial class, he said, 'You speak fluently, but I can help you to sound smarter.' That was exactly what I wanted. I recommend him to anyone who is already fluent but wants to reach the next level.",
+    "caseStudy": {
+      "headline": "From Fluent to Impactful: Reaching the Next Level",
+      "challenge": "A client who was already fluent in English sought a more challenging approach to reach a higher, more sophisticated level of communication.",
+      "solution": "We focused on the core principle of 'sounding smarter,' targeting advanced vocabulary and strategic phrasing to elevate her professional communication.",
+      "result": "The client achieved the impactful, next-level communication she was seeking, moving beyond simple fluency."
+    }
+  },
+  {
+    "id": 25,
+    "name": "Rice Fan",
+    "professionalContext": "From Advanced to Expert",
+    "language": "zh",
+    "tags": ["featured", "homepage", "The Business Briefing"],
+    "testimonialText": "My English was already good, but I chose Clint because I wanted to be even better. His teaching is rigorous and the materials are well-prepared. He corrects mistakes immediately. After nearly 20 lessons, my English ability is even better, and I can switch between Chinese and English with fluent communication.",
+    "caseStudy": {
+      "headline": "From Good to Great: Achieving Expert Fluency",
+      "challenge": "A client with an already advanced level of English wanted to become even better and achieve true expert fluency.",
+      "solution": "Through a rigorous teaching approach with well-prepared materials and immediate error correction, we focused on refining advanced language skills.",
+      "result": "After nearly 20 lessons, the client's English ability improved significantly, allowing for fluent, seamless communication."
+    }
+  }
+]

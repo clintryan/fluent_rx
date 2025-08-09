@@ -1,11 +1,11 @@
 <!-- Faculty Section -->
-<section class="bg-white py-24">
+<section class="bg-gray-50 py-24">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <!-- Section Header -->
     <div class="mx-auto max-w-2xl lg:text-center mb-16">
       <p class="text-lg font-semibold leading-8 tracking-tight text-secondary section-underline">The Faculty</p>
       <h2 class="mt-2 text-5xl font-bold leading-tight tracking-tight text-primary">
-        Meet the FluentRx Team
+        Meet the FluentRx team
       </h2>
       <p class="mt-6 text-lg leading-8 text-text-dark">
         You won't just learn from a language teacher—you'll learn from a specialist with proven, practical experience. Our instructors have current, real-world knowledge from business and education, providing the strategic insight needed to turn your expertise into impactful communication.
@@ -13,10 +13,10 @@
     </div>
 
     <!-- Instructor Cards -->
-    <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+    <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2 items-stretch">
       
       <!-- Clint's Card -->
-      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group h-full flex flex-col">
         <div class="flex flex-col sm:-mx-4 sm:flex-row">
           <!-- Photo with ring -->
           <div class="flex-shrink-0 w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300 bg-gray-200 flex items-center justify-center">
@@ -24,12 +24,12 @@
           </div>
 
           <div class="mt-4 sm:mx-4 sm:mt-0">
-            <h3 class="text-xl font-semibold text-gray-700 capitalize md:text-2xl transition-colors duration-300 group-hover:text-primary">Clint</h3>
-            <p class="mt-2 text-gray-500 capitalize">Founder & Head Instructor</p>
+            <h3 class="text-xl font-semibold text-gray-700 md:text-2xl transition-colors duration-300 group-hover:text-primary">Clint</h3>
+            <p class="mt-2 text-gray-500">Founder & Head Instructor</p>
           </div>
         </div>
 
-        <p class="mt-4 text-gray-500 capitalize">
+        <p class="mt-4 text-gray-500">
           Clint merges extensive experience in international finance with certified English language teaching. A Columbia University graduate, his background at HSBC and on the New York Mercantile Exchange gives him firsthand insight into the professional world his clients navigate. He leverages this unique blend of skills to help professionals succeed.
         </p>
 
@@ -42,14 +42,14 @@
           </div>
         </div>
 
-        <div class="flex flex-col sm:flex-row mt-6 gap-4">
+        <div class="flex flex-col sm:flex-row mt-auto pt-6 gap-4">
           <%= render 'shared/button', text: "Book a free consultation", url: "/book", type: :primary, options: { class: "w-full sm:flex-1" } %>
           <%= render 'shared/button', text: "Explore courses", url: "/courses", type: :ghost, options: { class: "w-full sm:flex-1" } %>
         </div>
       </div>
 
       <!-- Siobhan's Card -->
-      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group">
+      <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group h-full flex flex-col">
         <div class="flex flex-col sm:-mx-4 sm:flex-row">
           <!-- Photo with ring -->
           <div class="flex-shrink-0 w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300 bg-gray-200 flex items-center justify-center">
@@ -57,12 +57,12 @@
           </div>
 
           <div class="mt-4 sm:mx-4 sm:mt-0">
-            <h3 class="text-xl font-semibold text-gray-700 capitalize md:text-2xl transition-colors duration-300 group-hover:text-primary">Siobhan Hannah</h3>
-            <p class="mt-2 text-gray-500 capitalize">International School Teacher & EAL Specialist</p>
+            <h3 class="text-xl font-semibold text-gray-700 md:text-2xl transition-colors duration-300 group-hover:text-primary">Siobhan Hannah</h3>
+            <p class="mt-2 text-gray-500">International School Teacher & EAL Specialist</p>
           </div>
         </div>
 
-        <p class="mt-4 text-gray-500 capitalize">
+        <p class="mt-4 text-gray-500">
           With over 12 years of teaching experience, Siobhan is a specialist in English language education in international schools across Asia and Europe. She holds multiple qualifications, including a Post-Graduate Certificate of Education and a CELTA from the University of Cambridge. Her focus is on enhancing English skills for academic and personal success.
         </p>
 
@@ -73,7 +73,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col sm:flex-row mt-6 gap-4">
+        <div class="flex flex-col sm:flex-row mt-auto pt-6 gap-4">
           <%= render 'shared/button', text: "Book a free consultation", url: "/book", type: :primary, options: { class: "w-full sm:flex-1" } %>
           <%= render 'shared/button', text: "Explore courses", url: "/courses", type: :ghost, options: { class: "w-full sm:flex-1" } %>
         </div>

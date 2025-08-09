@@ -1,0 +1,33 @@
+<%# Usage: render 'shared/faculty_card', name: "Clint", title: "Founder & Head Instructor", description: "...", courses: [...], initial: "C" %>
+
+<div class="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1 group h-full flex flex-col">
+  <div class="flex flex-col sm:-mx-4 sm:flex-row">
+    <!-- Photo with ring -->
+    <div class="flex-shrink-0 w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300 bg-gray-200 flex items-center justify-center">
+      <span class="text-2xl font-bold text-gray-400"><%= initial %></span>
+    </div>
+
+    <div class="mt-4 sm:mx-4 sm:mt-0">
+      <h3 class="text-xl font-semibold text-gray-700 md:text-2xl transition-colors duration-300 group-hover:text-primary"><%= name %></h3>
+      <p class="mt-2 text-gray-500"><%= title %></p>
+    </div>
+  </div>
+
+  <p class="mt-4 text-gray-500">
+    <%= description %>
+  </p>
+
+  <div class="mt-6">
+    <div class="flex flex-wrap gap-2 mb-6">
+      <% courses.each do |course| %>
+        <a href="/courses/<%= course[:slug] %>" class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-secondary text-white hover:bg-secondary-dark transition-colors duration-200"><%= course[:name] %></a>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="flex flex-col sm:flex-row mt-auto pt-6 gap-4">
+    <%= render 'shared/button', text: "Book a free consultation", url: "/book", type: :primary, options: { class: "w-full sm:flex-1" } %>
+    <%= render 'shared/button', text: "Explore courses", url: "/courses", type: :ghost, options: { class: "w-full sm:flex-1" } %>
+  </div>
+</div>
+

@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "name": "Celica",
+      "language": "en",
+      "headline": "My English Was Fluent. I Wanted to Sound Smarter.",
+      "introduction": "I had classes with other teachers before, but the classes were not that challenging for me. I knew I wanted something more. Clint is very different from the other teachers I met.",
+      "story": [
+        {
+          "type": "heading",
+          "content": "He Understood My Real Goal"
+        },
+        {
+          "type": "paragraph",
+          "content": "I remember I told Clint that I wanted to speak English more fluently in my trial class. 'You speak English quite fluently but I can help you to sound smarter,' he advised. That was exactly what I wanted to be! From that moment, I knew Clint was different and I felt very confident in him."
+        },
+        {
+          "type": "heading",
+          "content": "Direct Feedback is Crucial"
+        },
+        {
+          "type": "paragraph",
+          "content": "Clint always points out my mistakes and doesn't pretend that he understands me when he doesn't. I work with native English speakers, but they are my colleagues and no one corrects me when I make mistakes. I don’t need encouragement; I need someone to pick up my mistakes directly."
+        },
+        {
+          "type": "heading",
+          "content": "A Genuine & Professional Teacher"
+        },
+        {
+          "type": "paragraph",
+          "content": "He pays attention to what I say and follows up, so I never have to repeat my goals. He is a very genuine and professional teacher who fully understands my needs and has given me useful advice. I truly recommend Clint to all of you, especially people who are already fluent in English."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rice Fan",
+      "language": "zh",
+      "headline": "My Goal Was to Go from Good to Great.",
+      "introduction": "I had been studying English for many years and my level was already quite good—I use it for my job. But I was looking for a teacher to help me get even better. The experience with Clint was very different from any other platform.",
+      "story": [
+        {
+          "type": "heading",
+          "content": "Rigorous Teaching and Preparation"
+        },
+        {
+          "type": "paragraph",
+          "content": "This teacher is very professional and his materials are thoroughly prepared to meet my needs. His teaching is rigorous. I usually prepare well before class—for video materials, I find the transcript, look up vocabulary, and review the questions. This makes the class excellent listening and speaking practice."
+        },
+        {
+          "type": "heading",
+          "content": "Real-World Practice"
+        },
+        {
+          "type": "paragraph",
+          "content": "The lessons sometimes include extended reading articles and post-class writing assignments, so all my skills are sharpened. The teacher corrects errors in real-time and the exchange of ideas on many topics is great practice. I even once practiced a work proposal in class!"
+        },
+        {
+          "type": "heading",
+          "content": "The Results of Diligent Practice"
+        },
+        {
+          "type": "paragraph",
+          "content": "After nearly 20 lessons, I feel my English ability has improved even more, and I can switch between Chinese and English with fluid communication. The reason I was able to improve is because of the continuous practice and solid preparation before each class. I recommend this to anyone who is already good at English and wants to be even better."
+        }
+      ]
+    }
+  ]
