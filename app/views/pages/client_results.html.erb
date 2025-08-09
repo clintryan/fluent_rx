@@ -69,61 +69,22 @@
   </div>
 </section>
 
-<!-- In Their Own Words (3 featured testimonials, matching homepage style) -->
-<section class="bg-white py-20">
+<!-- Tier 2 + Tier 3: Testimonials (curated and full library) -->
+<section class="bg-white py-20" data-controller="testimonials">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-xl text-center">
       <h3 class="text-lg font-semibold leading-8 tracking-tight text-secondary section-underline">Testimonials</h3>
       <p class="mt-2 text-5xl font-bold tracking-tight text-primary">In Their Own Words</p>
     </div>
 
-    <div class="mx-auto mt-16 flow-root max-w-2xl lg:mx-0 lg:max-w-none">
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+    <!-- Tier 2: Curated Testimonials (featured/homepage) -->
+    <div class="mx-auto mt-16 flow-root max-w-2xl lg:mx-0 lg:max-w-none" data-testimonials-target="curated"></div>
 
-        <div class="flex flex-col rounded-lg bg-white p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1">
-          <div class="flex-grow">
-            <i class="fa-solid fa-quote-left text-xl text-secondary"></i>
-            <blockquote class="mt-4 text-text-dark">
-              <p>"Other teachers told me my English was fluent, but I wanted something more challenging. Clint was different. In our trial class, he said, 'You speak fluently, but I can help you to sound smarter.' That was exactly what I wanted. I recommend him to anyone who is already fluent but wants to reach the next level."</p>
-            </blockquote>
-          </div>
-          <footer class="mt-6">
-            <p class="font-semibold text-primary">Celica</p>
-            <p class="text-sm text-secondary italic">"...wanted something more challenging."</p>
-          </footer>
-        </div>
-
-        <div class="flex flex-col rounded-lg bg-white p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1">
-          <div class="flex-grow">
-            <i class="fa-solid fa-quote-left text-xl text-secondary"></i>
-            <blockquote class="mt-4 text-text-dark">
-              <p>"My English was already good, but I chose Clint because I wanted to be even better. His teaching is rigorous and the materials are well-prepared. He corrects mistakes immediately. After nearly 20 lessons, my English ability is even better, and I can switch between Chinese and English with fluent communication."</p>
-            </blockquote>
-          </div>
-          <footer class="mt-6">
-            <p class="font-semibold text-primary">Rice Fan</p>
-            <p class="text-sm text-secondary italic">"...wanted to be even better."</p>
-          </footer>
-        </div>
-
-        <div class="flex flex-col rounded-lg bg-white p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-primary hover:-translate-y-1">
-          <div class="flex-grow">
-            <i class="fa-solid fa-quote-left text-xl text-secondary"></i>
-            <blockquote class="mt-4 text-text-dark">
-              <p>"I have been preparing my graduate school application... Clint kindly reviewed all the documents with me and provided many professional suggestions. My application materials look much better after his edits."</p>
-            </blockquote>
-          </div>
-          <footer class="mt-6">
-            <p class="font-semibold text-primary">Yvonne</p>
-            <p class="text-sm text-secondary italic">"...preparing my graduate school application."</p>
-          </footer>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="mt-12 text-center">
-      <%= render 'shared/button', text: 'See More Success Stories', url: '#more-testimonials', type: :secondary %>
+    <!-- Controls and Filters for Tier 3 -->
+    <div class="mt-20">
+      <div class="mb-8" data-testimonials-target="filters"></div>
+      <!-- Tier 3: Full Library with Show More -->
+      <div data-testimonials-target="library"></div>
     </div>
   </div>
 </section>
